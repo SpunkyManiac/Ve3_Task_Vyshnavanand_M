@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload CSV</title>
+</head>
+<body>
+    <h1>Upload CSV File</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div>
+            {{ form.file.label_tag }}<br>
+            {{ form.file }}
+        </div>
+        <div>
+            {{ form.handling_choice.label_tag }}<br>
+            {{ form.handling_choice }}
+        </div>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
