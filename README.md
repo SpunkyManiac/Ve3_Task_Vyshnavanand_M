@@ -17,6 +17,17 @@ This project is a Django-based web application that allows users to upload CSV f
   - Show the count of missing values per column
   - Generate histograms for numerical columns
 
+## Software Configuration
+
+-Requirements
+    -Python 3.6+
+    -Django 3.2+
+    -pandas 1.2+
+    -numpy 1.20+
+    -matplotlib 3.4+
+    -seaborn 0.11+
+
+
 ## Setup
 
 1. Clone the Repository:
